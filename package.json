@@ -1,0 +1,19 @@
+{
+  "name": "TypeChain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/Jiwon-Yang/typechain.git",
+  "author": "Jiwon Yang <jiwonyang.tech@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.4.0"
+  }
+}
